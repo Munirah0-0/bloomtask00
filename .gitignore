@@ -1,0 +1,17 @@
+
+# Private configuration
+config/db.php
+config/gemini.php
+
+# Environment secrets
+.env
+.env.*
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
