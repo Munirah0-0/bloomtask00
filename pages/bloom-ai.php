@@ -789,7 +789,7 @@ $overdue = (int) ($overview["overdue_count"] ?? 0);
                         <div class="ai-identity">
 
                             <div class="ai-symbol">
-                                ◈
+                                ⌘
                             </div>
 
                             <div>
@@ -811,7 +811,7 @@ $overdue = (int) ($overview["overdue_count"] ?? 0);
                         <div class="ai-welcome" id="welcomeScreen">
 
                             <div class="ai-welcome-symbol">
-                                ◈
+                                ⌘
                             </div>
 
                             <p class="ai-eyebrow">
