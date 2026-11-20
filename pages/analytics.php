@@ -869,7 +869,7 @@ document.addEventListener("DOMContentLoaded", function () {
                             {
                                 from: 1,
                                 to: 1,
-                                color: "#e0c38b",
+                                color: "#30281d",
                                 name: "Low"
                             },
                             {

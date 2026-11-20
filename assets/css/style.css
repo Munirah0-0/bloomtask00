@@ -1779,6 +1779,11 @@ html[data-theme="light"] .empty-day {
     object-fit: contain;
     border-radius: 0;
     background: transparent;
+    border: 2px solid var(--gold);
+    border-radius: 14px;
+    padding: 4px;
+    box-sizing: border-box;
+    background: #000;
 }
 
 .sidebar .brand-text {
@@ -1944,4 +1949,36 @@ html[data-theme="light"] .sidebar .brand {
     height: auto !important;
     margin: 0 auto 12px !important;
     object-fit: contain;
+}
+
+.auth-logo {
+    display: block;
+    width: 165px;
+    height: 110px;
+    object-fit: contain;
+
+    border: 2px solid var(--gold);
+    border-radius: 22px;
+
+    box-sizing: border-box;
+    background: #000;
+    padding: 8px;
+
+    margin: 0 auto 20px;
+}
+
+/* Analytics Chart Export Menu */
+.apexcharts-menu {
+    background: #211c16 !important;
+    border: 1px solid var(--gold) !important;
+    border-radius: 10px !important;
+}
+
+.apexcharts-menu-item {
+    color: #f2eadb !important;
+}
+
+.apexcharts-menu-item:hover {
+    background: #3a3022 !important;
+    color: var(--gold-light) !important;
 }
